@@ -3865,7 +3865,15 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				display: none;
+				display: flex;
+				/* border: 2px; */
+				width: 100%;
+				position: fixed;
+				padding-left: 388px;
+				flex-direction: row;
+				/* flex-wrap: nowrap; */
+				overflow-x: scroll;
+				white-space: nowrap;
 			}
 
 		}
